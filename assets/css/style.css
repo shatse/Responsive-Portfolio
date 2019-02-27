@@ -1,0 +1,113 @@
+body {
+    background-color: lightgray;
+}
+/*NAVBAR*/
+#navbar {
+    height: 50px;
+    width: 100%;
+    background-color:white;
+}
+
+#name {
+    font-size: 25px;
+    height:50px;
+    background-color: #4aaaa5;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+}
+
+.tabs2 {
+    height: 100%;
+    line-height: 50px;
+    vertical-align: middle;
+    color: #777777;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#links {
+    text-align: right;
+}
+
+.main {
+    background-color: white;
+    border: 2px solid #dddddd;
+}
+
+
+#headshot {
+    width:300px;
+}
+
+.pageheader {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+    font-size: 40px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom:0;
+    line-height:50px;
+    width:100%;
+    background-color: #666666;
+    text-align: center;
+    border-top: 4px solid #4aaaa5;
+    color: white;
+    
+}
+
+#submitbutton {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    border: none;
+    padding: 3px;
+    height: 30px;
+    width: 100px
+}
+
+.workbanner {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color:#4aaaa5;
+    color: white;
+    height:50px;
+    width:100%;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    left: 0;
+}
+
+.work {
+    width: 250px;
+    position: relative;
+    text-align: center;
+}
+
+@media only screen and (max-width: 980px) {
+    #mainbody {
+        width:700px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #mainbody {
+        width:900px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #mainbody {
+        width:600px;
+    }
+    #navbar {
+        height:100px;
+    }
+    #links {
+        text-align: center;
+    }
+}
